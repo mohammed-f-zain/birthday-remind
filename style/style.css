@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a7af49;
+}
+
+.birthday__card {
+  width: 25rem;
+  margin: 0 auto;
+  padding: 100px 20px 20px 20px;
+  border-radius: 10px;
+  background-image: url("../Images/background.png");
+  background-size: contain;
+  background-color: #f9f9fa;
+  background-repeat: no-repeat;
+}
+.birthday__profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.birthday__profile img {
+  width: 20%;
+}
+.btn__clear {
+  padding: 10px;
+  margin: 0 15px;
+  border: none;
+  width: 90%;
+  background-color: #148e92;
+  color: #fff;
+  cursor: pointer;
+}
+
